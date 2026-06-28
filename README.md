@@ -33,6 +33,7 @@ This project demonstrates how to build a scalable data extraction service using 
 
 ## Project Structure
 
+```text
 app/
 ├── api/
 ├── scraper/
@@ -40,6 +41,7 @@ app/
 ├── database.py
 ├── models.py
 └── main.py
+```
 
 ## Roadmap
 
