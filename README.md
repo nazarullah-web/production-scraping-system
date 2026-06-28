@@ -1,37 +1,53 @@
 # Production Scraping System
 
-A production-style web scraping system built using Python, FastAPI, and SQLAlchemy.
+A production-ready web scraping and ETL pipeline built with FastAPI and SQLAlchemy.
+
+## Overview
+
+This project demonstrates how to build a scalable data extraction service using modern Python backend technologies.
 
 ## Features
 
-- Web scraping using BeautifulSoup
+- Web scraping with BeautifulSoup
 - SQLAlchemy ORM
-- FastAPI API
+- FastAPI REST API
 - ETL ingestion pipeline
-- Duplicate prevention
-- Clean architecture
+- Duplicate detection
+- Modular architecture
+- Transaction-safe database operations
 
 ## Tech Stack
 
-- Python
+- Python 3.12+
 - FastAPI
 - SQLAlchemy
-- BeautifulSoup
+- BeautifulSoup4
 - Requests
 - SQLite
+- Uvicorn
 
 ## Project Structure
 
 app/
-api/
-scraper/
-services/
+├── api/
+├── scraper/
+├── services/
+├── database.py
+├── models.py
+└── main.py
 
-## Run
+## Roadmap
 
-pip install -r requirements.txt
-
-uvicorn app.main:app --reload
+- [x] SQLAlchemy ORM
+- [x] Basic Scraper
+- [ ] FastAPI REST API
+- [ ] Docker
+- [ ] PostgreSQL
+- [ ] Playwright
+- [ ] Scheduler
+- [ ] Retry System
+- [ ] CSV Export
+- [ ] JSON Export
 
 ## License
 
