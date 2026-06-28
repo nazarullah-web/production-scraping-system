@@ -1,5 +1,10 @@
 # Production Scraping System
 
+![Python](https://img.shields.io/badge/Python-3.12+-blue)
+![FastAPI](https://img.shields.io/badge/FastAPI-Latest-green)
+![SQLAlchemy](https://img.shields.io/badge/SQLAlchemy-2.x-red)
+![License](https://img.shields.io/badge/License-MIT-yellow)
+
 A production-ready web scraping and ETL pipeline built with FastAPI and SQLAlchemy.
 
 ## Overview
