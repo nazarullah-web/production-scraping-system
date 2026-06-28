@@ -42,6 +42,22 @@ app/
 ├── models.py
 └── main.py
 ```
+## Installation
+
+```bash
+git clone https://github.com/nazarullah-web/production-scraping-system.git
+
+cd production-scraping-system
+
+pip install -r requirements.txt
+```
+
+## API Endpoints
+
+| Method | Endpoint | Description |
+|---------|----------|-------------|
+| GET | /quotes | Retrieve all quotes |
+| POST | /scrape | Scrape and save quotes |
 
 ## Roadmap
 
@@ -52,7 +68,7 @@ app/
 - [ ] PostgreSQL
 - [ ] Playwright
 - [ ] Scheduler
-- [ ] Retry System
+- [ ] Retry Mechanism
 - [ ] CSV Export
 - [ ] JSON Export
 
