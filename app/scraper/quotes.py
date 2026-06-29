@@ -1,6 +1,8 @@
 import requests
 from bs4 import BeautifulSoup
 
+from app.core.logging import logger
+
 
 def scrape_quotes():
     """
@@ -9,6 +11,8 @@ def scrape_quotes():
     Returns:
         list[dict]: List of quotes and authors.
     """
+
+    logger.info("Requesting quotes.toscrape.com")
 
     response = requests.get(
         "https://quotes.toscrape.com",
@@ -47,5 +51,7 @@ def scrape_quotes():
                 "author": author
             }
         )
+
+    logger.info(f"Successfully parsed {len(quotes)} quotes.")
 
     return quotes
