@@ -61,16 +61,36 @@ pip install -r requirements.txt
 
 ## Roadmap
 
+### Core Features
+
+- [x] FastAPI Application
 - [x] SQLAlchemy ORM
-- [x] Basic Scraper
-- [ ] FastAPI REST API
-- [ ] Docker
-- [ ] PostgreSQL
-- [ ] Playwright
-- [ ] Scheduler
+- [x] SQLite Database
+- [x] BeautifulSoup Web Scraper
+- [x] ETL Ingestion Service
+- [x] Dependency Injection
+- [x] Pydantic Schemas
+- [x] REST API Endpoints
+- [x] Swagger API Documentation
+
+### Production Features
+
+- [ ] Configuration Management (.env)
+- [ ] Centralized Logging
+- [ ] Exception Handling
+- [ ] Pagination Scraper
 - [ ] Retry Mechanism
+- [ ] Rate Limiting
+- [ ] PostgreSQL
+- [ ] Alembic Migrations
+- [ ] Playwright Support
+- [ ] Scheduler (APScheduler)
 - [ ] CSV Export
 - [ ] JSON Export
+- [ ] Docker
+- [ ] Docker Compose
+- [ ] Unit Tests
+- [ ] CI/CD (GitHub Actions)
 
 ## License
 
