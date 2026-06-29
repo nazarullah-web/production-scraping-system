@@ -75,7 +75,7 @@ pip install -r requirements.txt
 
 ### Production Features
 
-- [ ] Configuration Management (.env)
+- [x] Configuration Management (.env)
 - [ ] Centralized Logging
 - [ ] Exception Handling
 - [ ] Pagination Scraper
